@@ -2,40 +2,48 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section
-      id="home"
-      class="mx-auto flex min-h-[80vh] max-w-7xl items-center px-6 py-20"
-    >
-      <div class="max-w-3xl">
-        <p class="mb-4 font-semibold text-emerald-400">
-          HELLO, WELCOME TO MY PORTFOLIO
-        </p>
+   
+<!-- Hero Section -->
+<section
+  id="home"
+  class="mx-auto grid min-h-[80vh] max-w-7xl items-center gap-12 px-6 py-20 md:grid-cols-2"
+>
+  <div class="max-w-3xl">
+    <p class="mb-4 font-semibold text-emerald-400">
+      HELLO, WELCOME TO MY PORTFOLIO
+    </p>
 
-        <h1 class="text-5xl font-bold tracking-tight sm:text-7xl">
-          I'm Daniel Gian Salinas.
-        </h1>
+    <h1 class="text-5xl font-bold tracking-tight sm:text-7xl">
+      I'm Daniel Gian Salinas.
+    </h1>
 
-        <h2 class="mt-4 text-2xl font-semibold text-base-content/70 sm:text-3xl">
-          Aspiring IT Professional & Developer
-        </h2>
+    <h2 class="mt-4 text-2xl font-semibold text-base-content/70 sm:text-3xl">
+      Aspiring IT Professional & Developer
+    </h2>
 
-        <p class="mt-6 max-w-2xl leading-relaxed text-base-content/60">
-          I am a Bachelor of Science in Information Technology student
-          passionate about technology, programming, and building
-          useful digital experiences.
-        </p>
+    <p class="mt-6 max-w-2xl leading-relaxed text-base-content/60">
+      I am a Bachelor of Science in Information Technology student
+      passionate about technology, programming, and building
+      useful digital experiences.
+    </p>
 
-        <div class="mt-8 flex flex-wrap gap-4">
-          <a href="#about" class="btn btn-primary">
-            About Me
-          </a>
+    <div class="mt-8 flex flex-wrap gap-4">
+      <a href="#about" class="btn btn-primary">About Me</a>
+      <a href="#contact" class="btn btn-outline">Contact Me</a>
+    </div>
+  </div>
 
-          <a href="#contact" class="btn btn-outline">
-            Contact Me
-          </a>
-        </div>
-      </div>
-    </section>
+  <!-- Profile Picture -->
+  <div class="flex justify-center md:justify-end">
+    <div class="rounded-full border-4 border-primary/40 p-2 shadow-2xl shadow-primary/20 transition-transform duration-500 hover:scale-105">
+      <img
+        src="/images/profile.png"
+        alt="Daniel's Profile Picture"
+        class="h-64 w-64 rounded-full object-cover sm:h-80 sm:w-80"
+      />
+    </div>
+  </div>
+</section>
 
    <AboutSection />
 
