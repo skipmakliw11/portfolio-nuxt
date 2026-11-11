@@ -6,7 +6,7 @@
       <!-- Logo -->
       <div class="flex-1">
         <a href="#home" class="text-xl font-bold tracking-tight">
-          <span class="text-primary">Portfolio</span>
+          <span class="text-primary">Daniel Gian Salinas</span>
           <span class="text-base-content">.</span>
         </a>
       </div>
